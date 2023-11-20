@@ -59,12 +59,12 @@ header{
 }
 #paragrafo1 h1{
     font-size: 50px;
-    margin-bottom:20px;
 }
 
 #paragrafo1 p {
     font-size: 18px;
     margin-bottom:20px;
+    margin-bottom: 50px;
 }
 
 #button1{
@@ -96,114 +96,139 @@ header{
     font-weight: bold;
 }
 main{
-    background-color: bisque;
     margin: 20px;
     }
 
 .contenitore3{
-    background-color: bisque;
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     margin-top: 30px;
+    width:60%;
+    margin: 0 auto;
 }
-#immagine2{
-    background-color: blueviolet;
-    height: 300px;
-    width: 350px;
-    border: 2px solid black;
+#paragrafo2 h1{
+    font-size:30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    width: 150px;
+    margin-top: 25px;
+
+   
 }
-#paragrafo2{
-    background-color: rgb(43, 43, 226);
-    height: 300px;
-    width: 350px;
-    border: 2px solid black;
+#paragrafo2 p{
+    font-size: 12px;
+    width: 150px;
+    vertical-align: baseline;
+    margin-bottom: 50px;
 }
 
-#titolo1{
-    padding: 30px;
-    background-color: blueviolet;
-    border: 2px solid black;
+#paragrafo2{
+    text-align: left;
 }
+
+
 .contenitore4{
-    background-color: bisque;
+    background-color: lightgray;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-top: 30px;
+    width:70%;
+    margin: 0 auto;
 }
 #paragrafo3{
-    background-color: rgb(43, 43, 226);
-    height: 300px;
-    width: 350px;
-    border: 2px solid black;
+    text-align: left;
 }
-#immagine3{
-    background-color: blueviolet;
-    height: 300px;
-    width: 350px;
-    border: 2px solid black;
+    
+
+#paragrafo3 h1{
+    font-size:30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    width: 150px;
+    margin-top: 25px;
 }
-#titolo2{
-    padding: 30px;
-    background-color: blueviolet;
-    border: 2px solid black;
+#paragrafo3 p{
+    font-size: 15px;
+    width: 150px;
+    margin-bottom: 50px;
 }
 
-#paragrafo4{
-    background-color: rgb(43, 43, 226);
-    height: 300px;
-    width: 350px;
-    border: 2px solid black;
+#paragrafo4{  
+    text-align: left;
 }
 
-#immagine4{
-    background-color: blueviolet;
-    height: 300px;
-    width: 350px;
-    border: 2px solid black;
+#paragrafo4 h1{
+    font-size:30px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    width: 150px;
+    margin-top: 25px;
+}
+#paragrafo4 p{
+    font-size: 15px;
+    width: 150px;
+    margin-bottom: 50px;
 }
 
-#titolo3{
-    padding: 30px;
-    background-color: blueviolet;
-    border: 2px solid black;
-}
+
+
 .contenitore5{
     display: flex;
     flex-direction: column;
-    background-color: bisque;
     justify-content: center;
     padding:100px;
+    background-color: lightgray;
 }
 .paragrafo5{
-    background-color: blue;
-    height: 100px;
-    border: 2px solid black;
+    text-align: center;
+
+}
+.paragrafo5 h1{
+    font-size: 50px;
+    padding: 20px;
 }
 
+
+.paragrafo5 p{
+    font-size: 20px;
+    padding: 20px;
+}
 #immagine5{
-    background-color: blueviolet;
-    height: 150px;
-    border: 2px solid black;
+    text-align: center;
 
 }
-#button2{
-    background-color:beige;
-    display: flex;
-    height: 50px;
+#stars{
+    background-image: url(img/stars.svg);
+    width: 55%;
+    margin: 0 auto;
     padding: 10px;
-    border: 2px solid black;
-    justify-content: center;
+}
+#stars h1{
+    font-size: 40px;
+    text-align: center;
 }
 
-#button2 button{
-    background-color: blue;
-    width: 100px;
+#button2{
+    background-color:#5865f2;
     height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 5px;
 }
+
+
+#button2 a{
+   font-size: 20px;
+   text-decoration: none;
+   color: white;
+   }
 
 footer{
     background-color: #121212;
     color: white;
+    padding: 50px;
 }
 
 footer ul li{
@@ -217,6 +242,7 @@ footer .container{
 
 footer .container > div{
     flex-grow: 1;
+    padding: 15px;
 }
 
 footer .container>div:first-child{
@@ -226,4 +252,44 @@ footer .container>div:first-child{
 footer .footer-login{
     display: flex;
     justify-content: space-between;
+}
+.lista1 h4{
+    font-size: 25px;
+    color: #5865f2;
+    width: 30%;
+
+}
+.lista1 span{
+    font-size:20px;
+    text-align: center;
+}
+#freccia{
+    color: white;
+}
+.container h4{
+    color: #5865f2;
+    font-size: 25px;
+
+}
+.container ul li a{
+    text-decoration: none;
+    font-size:15px;
+    color: white; 
+      
+}
+
+.footer-login a{
+    background-color:#5865f2 ;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    font-size:20px;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+
+}
+
+.footer-login{
+    margin-top: 30px;
 }
